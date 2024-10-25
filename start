@@ -5,7 +5,8 @@ from asyncio import run
 
 from bot.main import main
 
-
+def func() -> None:
+    pass
 
 if __name__ == "__main__":
     log.basicConfig(level=log.INFO)
